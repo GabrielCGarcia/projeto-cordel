@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 2.5vw;
+    padding: 10px;
+    margin: 0px;
+}
+
+header > h1 {
+    margin: 0px;
+    font-style: italic;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    font-size: bolder;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(48, 133, 48);
+}
+
+body {
+    background-color: rgb(143, 140, 140);
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.imagem > p {
+    text-shadow: 1px 1px 1px black;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+section {
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    line-height: 1em;
+    font-size: 1.5vw;
+    padding-left: 15px;
+}
+
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    margin-left: 0px;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+    font-size: bold;
+}
+
+footer a {
+    color: white;
+}
