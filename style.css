@@ -3,8 +3,8 @@
 header {
     background-color: black;
     color: white;
-    font-size: 3.0vw;
-    padding: 10px;
+    font-size: 4.0vw;
+    padding: 15px;
     margin: 0px;
 }
 
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 body {
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(221, 221, 221);
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -52,8 +52,12 @@ section {
     padding-top: 10vh;
     padding-bottom: 5vh;
     line-height: 2em;
-    font-size: 5.5vh;
+    font-size: 3.0vw;
     padding-left: 15px;
+}
+
+section.normal {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 
 section.imagem {
@@ -80,15 +84,17 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0px;
-    padding: 1px;
+    padding: 2px;
     text-align: center;
     font-size: bold;
+    font-weight: 16px;
 }
 
 footer a {
     color: white;
+    text-decoration: none;
 }
 
 footer a:hover {
-    color: rgb(83, 55, 207);
+    color: rgb(49, 18, 189);
 }
