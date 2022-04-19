@@ -3,7 +3,7 @@
 header {
     background-color: black;
     color: white;
-    font-size: 4.0vw;
+    font-size: 4.5vw;
     padding: 15px;
     margin: 0px;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 body {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(243, 243, 243);
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -52,12 +52,8 @@ section {
     padding-top: 10vh;
     padding-bottom: 5vh;
     line-height: 2em;
-    font-size: 3.0vw;
+    font-size: 3.8vw;
     padding-left: 15px;
-}
-
-section.normal {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 
 section.imagem {
@@ -77,6 +73,7 @@ section#img02 {
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
+    margin-left: 0px;
 }
 
 footer {
